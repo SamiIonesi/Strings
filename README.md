@@ -9,7 +9,7 @@ In C++ there are two ways of declaring strings:
 
 #### 1. With arrays
 
-    The code below describes different ways of declaring and initializing a string using arrays.
+The code below describes different ways of declaring and initializing a string using arrays.
 
 ```cpp
 #include <iostream>
@@ -30,7 +30,7 @@ int main()
 
 #### 2. With string library
 
-    The code below describe the way of declaration and initalization of a string using string library.
+The code below describe the way of declaration and initalization of a string using string library.
 
 ```cpp
 #include <iostream>
