@@ -164,14 +164,18 @@ It has a time complexity of:
 - **O(n)** for worst case
 
 ```cpp
-int lengthOfString()
+void changeCase()
 {
-    int count = 0;
-
-    for(count = 0; myString[count] != '\0'; count++){}
-
-    this->length = count;
-    return count;
+    if(length >= 0 && length < size)
+    {
+        for(int i = 0; i < length; i++)
+        {
+            if(myString[i] >= 65 && myString[i] <= 90)
+                myString[i] += 32;
+            else if(myString[i] >= 97 && myString[i] <= 122)
+                myString[i] -= 32;
+        }
+    }
 }
 ```
 
